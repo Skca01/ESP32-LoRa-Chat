@@ -5,8 +5,12 @@
 #include <LoRa.h>
 #include <SPIFFS.h>
 
-// WiFi credentials
-const char* ssid = "ESP32-LoRa-Chat2";
+// WiFi credential
+// Use different ssid for both module to avoid confusion
+// example: 
+// const char* ssid = "ESP32-LoRa-Chat1"; for user 1
+// const char* ssid = "ESP32-LoRa-Chat2"; for user 2
+const char* ssid = "ESP32-LoRa-Chat";
 const char* password = "chatpass123";
 
 // LoRa Pins
