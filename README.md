@@ -77,7 +77,7 @@ ESP32 -> LoRa Module
 - Maximum Range: Several kilometers (line of sight)
 
 ### Antenna Specifications
-- Type: Spring Antenna with Built-in Wireless Transceiver
+- Type: Spring Antenna
 - Center Frequency: 433MHz
 - VSWR: ≤1.5
 - Gain: 3dBi
